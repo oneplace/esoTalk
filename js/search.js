@@ -159,10 +159,10 @@ init: function() {
 	});
 
 	// Add click handlers to the channels.
-	$("#conversations .channel").live("click", function(e) {
-		ETSearch.changeChannel($(this).data("channel"));
-		e.preventDefault();
-	});
+	// $("#conversations .channel").live("click", function(e) {
+	// 	ETSearch.changeChannel($(this).data("channel"));
+	// 	e.preventDefault();
+	// });
 
 	// Initialize the search results.
 	ETSearch.initSearchResults();
@@ -181,10 +181,10 @@ init: function() {
 	});
 
 	// Add click handlers to the channels.
-	$("#channels a:not(.channel-list)").live("click", function(e) {
-		e.preventDefault();
-		ETSearch.changeChannel($(this).data("channel"), e.shiftKey);
-	});
+	// $("#channels a:not(.channel-list)").live("click", function(e) {
+	// 	e.preventDefault();
+	// 	ETSearch.changeChannel($(this).data("channel"), e.shiftKey);
+	// });
 },
 
 // Given an element within a conversation row, get the ID of its parent conversation.
