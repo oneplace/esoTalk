@@ -169,7 +169,7 @@ public function index($conversationId = false, $year = false, $month = false)
 
 		// If the slug in the URL is not the same as the actual slug, redirect.
 		$slug = slug($conversation["title"]);
-		if ($slug and (strpos($conversationId, "-") === false or substr($conversationId, strpos($conversationId, "-") + 1) != $slug)) {
+		if ($slug and (strpos($conversationId, "-") === false or slug(substr($conversationId, strpos($conversationId, "-") + 1)) != $slug)) {
 			redirect(URL($url), 301);
 		}
 
