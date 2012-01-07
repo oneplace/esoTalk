@@ -247,7 +247,7 @@ protected function getSelectedChannels($channelSlug = "")
 		// Go through the channels and add their IDs to the list of current channels.
 		foreach ($channels as $channel) {
 			foreach ($channelInfo as $id => $c) {
-				if ($c["slug"] == $channel) {
+				if ($c["slug"] == slug($channel)) {
 					$currentChannels[] = $id;
 					break;
 				}
