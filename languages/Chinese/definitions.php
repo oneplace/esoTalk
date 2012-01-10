@@ -4,7 +4,7 @@
 
 ET::$languageInfo["Chinese"] = array(
 	"locale" => "zh-CN",
-	"name" => "Chinese",
+	"name" => "简体中文",
 	"description" => "A useful Chinese language pack.",
 	"version" => ESOTALK_VERSION,
 	"author" => "ToNear",
@@ -366,26 +366,26 @@ $definitions["message.esoTalkUpdateAvailable"] = "新版本的 esoTalk, %s, 已�
 $definitions["message.esoTalkUpdateAvailableHelp"] = "建议您更新到最新版本以实现更酷的功能和更安全的机制";
 $definitions["message.esoTalkUpToDate"] = "您的版本已经是最新的";
 $definitions["message.esoTalkUpToDateHelp"] = "esoTalk 软件的开发者需要您的支持，如果您喜欢这款软件，请不吝<a href='%s' target='_blank'>捐助</a>";
-$definitions["message.fatalError"] = "<p>esoTalk has encountered an nasty error which is making it impossible to do whatever it is that you're doing. But don't feel down - <strong>here are a few things you can try</strong>:</p>\n<ul>\n<li>Go outside, walk the dog, have a coffee... then <strong><a href='%1\$s'>try again</a></strong>!</li>\n<li>If you are the forum administrator, then you can <strong>get help on the <a href='%2\$s'>esoTalk website</a></strong>.</li>\n<li>Try hitting the computer - that sometimes works for me.</li>\n</ul>";
-$definitions["message.fatalErrorInstaller"] = "<p>esoTalk has encountered an nasty error which is making it impossible to do whatever it is that you're doing. But don't feel down - <strong>here are a few things you can try</strong>:</p>\n<ul>\n<li><p><strong>Try again.</strong> Everyone makes mistakes - maybe the computer made one this time!</p></li>\n<li><p><strong>Go back and check your settings.</strong> In particular, make sure your database information is correct.</p></li>\n<li><p><strong>Get help.</strong> Go on the <a href='%s'>esoTalk support forum</a> and search to see if anyone else is having the same problem as you are. If not, start a new conversation about your problem, including the error details below.</p></li>\n</ul>";
-$definitions["message.fatalErrorUpgrader"] = "<p>esoTalk has encountered an nasty error which is making it impossible to do whatever it is that you're doing. But don't feel down - <strong>here are a few things you can try</strong>:</p>\n<ul>\n<li><p><strong>Try again.</strong> Everyone makes mistakes - maybe the computer made one this time!</p></li>\n<li><p><strong>Get help.</strong> Go on the <a href='%s'>esoTalk support forum</a> and search to see if anyone else is having the same problem as you are. If not, start a new conversation about your problem, including the error details below.</p></li>\n</ul>";
-$definitions["message.fileUploadFailed"] = "Something went wrong and the file you selected could not be uploaded. Perhaps it's too big, or in the wrong format?";
-$definitions["message.fileUploadFailedMove"] = "The file you uploaded could not be copied to its destination. Please contact the forum administrator.";
-$definitions["message.fileUploadNotImage"] = "The file you uploaded is not an image in an acceptable format.";
-$definitions["message.fileUploadTooBig"] = "The file you selected could not be uploaded because it is too big.";
+$definitions["message.fatalError"] = "<p>程序发生了严重的错误，暂时无法完成您的请求。<strong>您可以尝试</strong>:</p>\n<ul>\n<li>出去走走，遛遛狗，喝杯咖啡... 以后 <strong><a href='%1\$s'>再试</a></strong>!</li>\n<li>如果您是论坛管理员，<strong>请到 <a href='%2\$s'>esoTalk website</a></strong>寻求帮助。</li>\n<li>Tip：也许是你打开的方式不对！</li>\n</ul>";
+$definitions["message.fatalErrorInstaller"] = "<p>程序发生了严重的错误，暂时无法完成您的请求。<strong>您可以尝试</strong>：</p>\n<ul>\n<li><p><strong>重试</strong>。也许是服务器开小差了，</p></li>\n<li><p><strong>返回检查您的设置</strong> 确保数据库信息正确</p></li>\n<li><p><strong>请前往</strong><a href='%s'>esoTalk 支持社区</a>获取帮助，不要忘了写上您的错误信息。</p></li>\n</ul>";
+$definitions["message.fatalErrorUpgrader"] = "<p>程序发生了严重的错误，暂时无法完成您的请求。<strong>您可以尝试</strong>：</p>\n<ul>\n<li><p><strong>重试</strong>。也许是服务器开小差了，</p></li>\n<li><p><strong>请前往</strong><a href='%s'>esoTalk 支持社区</a>获取帮助，不要忘了写上您的错误信息。</p></li>\n</ul>";
+$definitions["message.fileUploadFailed"] = "文件上传出现错误，请检查您的文件的格式和大小，如果还不行，请联系管理员";
+$definitions["message.fileUploadFailedMove"] = "文件传输出现错误，请检查您的文件的格式和大小，如果还不行，请联系管理员";
+$definitions["message.fileUploadNotImage"] = "您是不是选错文件了？这不是一个图片文件";
+$definitions["message.fileUploadTooBig"] = "您上传的图片太大了，选小一些的吧";
 $definitions["message.forgotPasswordHelp"] = "不用担心，填写以下信心您就可以重新设定密码了：";
 $definitions["message.fulltextKeywordWarning"] = "我们暂时还不支持搜索中文，请等待新版本";
 $definitions["message.gambitsHelp"] = "想分门别类地搜索内容？点击以下按钮：";
-$definitions["message.gdNotEnabledWarning"] = "The <strong>GD extension</strong> is not enabled.<br/><small>This is required to resize and save avatars. Get your host or administrator to install/enable it.</small>";
-$definitions["message.greaterMySQLVersionRequired"] = "You must have <strong>MySQL 4 or greater</strong> installed and the <a href='http://php.net/manual/en/mysql.installation.php' target='_blank'>MySQL extension enabled in PHP</a>.<br/><small>Please install/upgrade both of these requirements or request that your host or administrator install them.</small>";
-$definitions["message.greaterPHPVersionRequired"] = "Your server must have <strong>PHP 5.0.0 or greater</strong> installed to run esoTalk.<br/><small>Please upgrade your PHP installation or request that your host or administrator upgrade the server.</small>";
+$definitions["message.gdNotEnabledWarning"] = "<strong>GD extension</strong> 没有启用<br/><small>这是头像功能实现所必须的，请联系您的服务器管理员安装这个插件</small>";
+$definitions["message.greaterMySQLVersionRequired"] = "您必须使用 <strong>MySQL 4 或以上版本</strong> 到这里 <a href='http://php.net/manual/en/mysql.installation.php' target='_blank'>MySQL PHP插件</a>.<br/><small>查看怎样安装，或者您可以联系您的服务器管理员</small>";
+$definitions["message.greaterPHPVersionRequired"] = "您的服务器必须使用 <strong>PHP 5.0.0 或以上版本</strong> 来运行我们的程序。<br/><small>请联系服务器管理员升级您的PHP组件。</small>";
 $definitions["message.incorrectLogin"] = "您的登录信息有误";
 $definitions["message.incorrectPassword"] = "您目前的密码错误";
-$definitions["message.installerAdminHelp"] = "esoTalk will use the following information to set up your administrator account on your forum.";
-$definitions["message.installerFilesNotWritable"] = "esoTalk cannot write to the following files/folders: <strong>%s</strong>.<br/><small>To resolve this, you must navigate to these files/folders in your FTP client and <strong>chmod</strong> them to <strong>777</strong>.</small>";
-$definitions["message.installerMySQLHelp"] = "esoTalk needs access to a MySQL database to store all your forum's data in, such as conversations and posts. If you're unsure of any of these details, you may need to ask your hosting provider.";
-$definitions["message.installerWelcome"] = "<p>Welcome to the esoTalk installer! We need a few details from you so we can get your forum set up and ready to go.</p>\n<p>If you have any trouble, get help on the <a href='%s'>esoTalk support forum</a>.</p>";
-$definitions["message.invalidChannel"] = "You selected an invalid channel!";
+$definitions["message.installerAdminHelp"] = "esoTalk 将会用到以下信息来生成您的论坛管理员帐号，请认真填写。";
+$definitions["message.installerFilesNotWritable"] = "esoTalk 不能写入这些目录或文件: <strong>%s</strong>.<br/><small>请在 FTP 中将权限修改为<strong>777</strong>.</small>";
+$definitions["message.installerMySQLHelp"] = "esoTalk 需要一个 MySQL 数据库来储存论坛信息，如果您不知道 MySQL 数据库名和帐号密码，可以询问您的服务器管理员。";
+$definitions["message.installerWelcome"] = "<p>欢迎来到安装向导，安装程序需要一些信息来完成安装，如果您不太了解，可以向服务器管理员求助。</p>\n<p>我们也随时欢迎您到 <a href='%s'>esoTalk 支持社区</a>提交问题</p>";
+$definitions["message.invalidChannel"] = "您选择了一个不合法的节点";
 $definitions["message.invalidEmail"] = "您输入了不合法的邮件地址";
 $definitions["message.invalidUsername"] = "用户名太复杂啦";
 $definitions["message.javascriptRequired"] = "网站需要启用 JavaScript 特性，请在浏览器设置中开启。";
@@ -397,8 +397,8 @@ $definitions["message.logInToSeeAllConversations"] = "请<a href='".URL("user/lo
 $definitions["message.memberNotFound"] = "没有找到该用户";
 $definitions["message.memberNoPermissionView"] = "该用户不能加入讨论，因为他/她没有权限查看这个节点下的内容";
 $definitions["message.nameTaken"] = "这个名字已经被占用了";
-$definitions["message.newSearchResults"] = "There has been new activity that has affected your search results.";
-$definitions["message.noActivity"] = "%s hasn't done anything on this forum yet!";
+$definitions["message.newSearchResults"] = "您的搜索出现了新的内容";
+$definitions["message.noActivity"] = "%s 还没有在这里进行过任何活动";
 $definitions["message.noMembersOnline"] = "没有用户在线";
 $definitions["message.noNotifications"] = "您暂时没有提醒";
 $definitions["message.noPermission"] = "额，你没有权限查看这些内容";
@@ -417,40 +417,40 @@ $definitions["message.passwordTooShort"] = "密码太短啦";
 $definitions["message.pluginCannotBeEnabled"] = "该插件 <em>%s</em> 不能启用: %s";
 $definitions["message.pluginDependencyNotMet"] = "为了启用该插件，您必须安装并启用 %s 版本 %s ";
 $definitions["message.pluginUninstalled"] = "插件卸载完成";
-$definitions["message.postNotFound"] = "The post you're looking for could not be found.";
-$definitions["message.postTooLong"] = "Your post is really, really long! Too long! The maximum number of characters allowed is %s. That's really long!";
-$definitions["message.preInstallErrors"] = "The following errors were found with your esoTalk setup. They must be resolved before you can continue the installation.";
-$definitions["message.preInstallWarnings"] = "The following errors were found with your esoTalk setup. You can continue the esoTalk install without resolving them, but some esoTalk functionality may be limited.";
+$definitions["message.postNotFound"] = "唔，找不到这个帖子";
+$definitions["message.postTooLong"] = "帖子内容太长啦";
+$definitions["message.preInstallErrors"] = "您的安装出现了以下错误，请检查设置信息";
+$definitions["message.preInstallWarnings"] = "您的安装出现了以下错误，请检查设置信息。您可以继续安装，但是程序的一些功能会丢失。";
 $definitions["message.reduceNumberOfGambits"] = "减少搜索所用关键词";
-$definitions["message.registerGlobalsWarning"] = "PHP's <strong>register_globals</strong> setting is enabled.<br/><small>While esoTalk can run with this setting on, it is recommended that it be turned off to increase security and to prevent esoTalk from having problems.</small>";
-$definitions["message.registrationClosed"] = "Registration on this forum is not open to the public.";
-$definitions["message.removeDirectoryWarning"] = "Hey! Looks like you haven't deleted the <code>%s</code> directory like we told you to! You probably should, just to make sure those hackers can't do anything naughty.";
-$definitions["message.safeModeWarning"] = "<strong>Safe mode</strong> is enabled.<br/><small>This could potentially cause problems with esoTalk, but you can still proceed if you cannot turn it off.</small>";
-$definitions["message.searchAllConversations"] = "Try searching for this term across all conversations.";
-$definitions["message.setNewPassword"] = "Alright! Now, what do you want your new password to be?";
-$definitions["message.skinUninstalled"] = "The skin was uninstalled.";
-$definitions["message.suspended"] = "Ouch! A forum moderator has <strong>suspended</strong> your account. It sucks, but until the suspension is lifted you won't be able to do much around here. Hey, screw them!";
-$definitions["message.suspendMemberHelp"] = "Suspending %s will prevent them from replying to conversations, starting conversations, and viewing private conversations. They will effectively have the same permissions as a guest.";
-$definitions["message.tablePrefixConflict"] = "The installer has detected that there is another installation of esoTalk in the same MySQL database with the same table prefix.<br/>To overwrite this installation of esoTalk, click 'Install My Forum' again. <strong>All data will be lost.</strong><br/>If you wish to create another esoTalk installation alongside the existing one, <strong>change the table prefix</strong>.";
-$definitions["message.unsuspendMemberHelp"] = "Unsuspending %s will enable them to participate in conversations on this forum again.";
-$definitions["message.upgradeSuccessful"] = "esoTalk was successfully upgraded.";
-$definitions["message.waitToReply"] = "You must wait at least %s seconds between starting or replying to conversations. Take a deep breath and try again.";
-$definitions["message.waitToSearch"] = "Woah, slow down! Looks like you're trying to perform a few too many searches. Wait %s seconds and try again.";
+$definitions["message.registerGlobalsWarning"] = "PHP 的 <strong>register_globals</strong> 设置是启用状态。<br/><small>请设置为禁用，否则会出现安全隐患。</small>";
+$definitions["message.registrationClosed"] = "论坛没有开放注册，请下次再来吧。";
+$definitions["message.removeDirectoryWarning"] = "您似乎没有删除 <code>%s</code> 这个目录。请在服务器上删除它，以免造成安全隐患。";
+$definitions["message.safeModeWarning"] = "<strong>安全模式</strong> 启用。<br/><small>程序可能会出现问题，但如果你无法关闭，还是可以勉强使用。</small>";
+$definitions["message.searchAllConversations"] = "尝试在所有讨论中搜索这个关键词";
+$definitions["message.setNewPassword"] = "恭喜，新的密码设置好了";
+$definitions["message.skinUninstalled"] = "皮肤卸载完成";
+$definitions["message.suspended"] = "额，论坛管理员 <strong>禁用</strong> 了你的帐号，再次期间你不能做任何事。";
+$definitions["message.suspendMemberHelp"] = "禁用 %s 帐号，该用户将不能发起讨论，回复讨论，查看非公开讨论，换句话说，权限和访客一致。";
+$definitions["message.tablePrefixConflict"] = "安装向导发现已有一个 esoTalk 使用相同的数据表前缀安装在 MySQL 数据库中<br/>想要覆盖这个设置，点击“安装论坛” <strong>注意数据将全部丢失</strong><br/>如果您想要与先前的安装共存，<strong>请更改数据表前缀</strong>。";
+$definitions["message.unsuspendMemberHelp"] = "恢复 %s 帐号将会恢复该用户的原有权限。";
+$definitions["message.upgradeSuccessful"] = "esoTalk 更新成功！";
+$definitions["message.waitToReply"] = "您必须至少等 %s 秒再发表回复，这里不欢迎灌水。";
+$definitions["message.waitToSearch"] = "您搜索太快了，请等待 %s 秒，让服务器休息一下。";
 
 
 // Emails.
-$definitions["email.confirmEmail.body"] = "Someone (hopefully you!) has signed up to the forum '%1\$s' with this email address.\n\nIf this was you, simply visit the following link and your account will be activated:\n%2\$s";
-$definitions["email.confirmEmail.subject"] = "%1\$s, please confirm your email address";
-$definitions["email.footer"] = "\n\n(If you don't want to receive any emails of this kind again, <a href='%s'>click here</a>.)";
-$definitions["email.forgotPassword.body"] = "Someone (hopefully you!) has submitted a forgotten password request for your account on the forum '%1\$s'. If you do not wish to change your password, just ignore this email and nothing will happen.\n\nHowever, if you did forget your password and wish to set a new one, visit the following link:\n%2\$s";
-$definitions["email.forgotPassword.subject"] = "Did you forget your password, %1\$s?";
-$definitions["email.header"] = "Hey %s!\n\n";
-$definitions["email.mention.body"] = "%1\$s tagged you in a post in the conversation '%2\$s'.\n\nTo view the post, check out the following link:\n%3\$s";
-$definitions["email.mention.subject"] = "%1\$s tagged you in a post";
-$definitions["email.privateAdd.body"] = "You have been added to a private conversation titled '%1\$s'.\n\nTo view this conversation, check out the following link:\n%2\$s";
-$definitions["email.privateAdd.subject"] = "You have been added to a private conversation";
-$definitions["email.replyToStarred.body"] = "%1\$s has replied to a conversation which you starred: '%2\$s'.\n\nTo view the new activity, check out the following link:\n%3\$s";
-$definitions["email.replyToStarred.subject"] = "There is a new reply to '%1\$s'";
+$definitions["email.confirmEmail.body"] = "欢迎您用 '%1\$s' 这个邮件地址注册。\n\n请点击这个链接验证您的帐号：\n%2\$s";
+$definitions["email.confirmEmail.subject"] = "%1\$s 请验证您的邮件地址。";
+$definitions["email.footer"] = "\n\n如果您不想再收到这样的邮件，<a href='%s'>点击退订</a>。";
+$definitions["email.forgotPassword.body"] = "您使用了忘记密码功能 '%1\$s'。如果您已经记起了密码，忽略这封邮件。\n\n确实要重设密码？点击这个链接：\n%2\$s";
+$definitions["email.forgotPassword.subject"] = "您是否忘记了密码 %1\$s？";
+$definitions["email.header"] = "嗨 %s！\n\n";
+$definitions["email.mention.body"] = "%1\$s 在这个讨论中提到了您 '%2\$s'。\n\n点击这个链接查看详情：\n%3\$s";
+$definitions["email.mention.subject"] = "%1\$s 在一个讨论中提到了您";
+$definitions["email.privateAdd.body"] = "您被邀请参与这个非公开讨论 '%1\$s'。\n\n点击这个链接查看详情：\n%2\$s";
+$definitions["email.privateAdd.subject"] = "您被邀请参与一个非公开讨论";
+$definitions["email.replyToStarred.body"] = "%1\$s 回复了您加星标的讨论 '%2\$s'。\n\n点击这个链接查看详情：\n%3\$s";
+$definitions["email.replyToStarred.subject"] = "这则讨论有新回复 '%1\$s'";
 
 
 // Translating the gambit system can be quite complex, but we'll do our best to get you through it. :)
